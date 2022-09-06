@@ -394,7 +394,9 @@ header a, #home a, #cont a >*{
     border: 1px solid rgb(107, 177, 235);
 }
 .image div #P1{
-    padding: 40%;
+    display: grid;
+    justify-content: center;
+    padding-top: 30%;
     font-size: 100px;
     visibility: hidden;
 }
@@ -815,6 +817,57 @@ header a, #home a, #cont a >*{
     }
     .re_1{
         flex-direction: column;
+    }
+    .image div:hover .tootip, .image div:focus .tooltip{
+        opacity: 0;
+    }
+    .image div #P1{
+        visibility: visible;
+    }
+    .I1{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/camera.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I2{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/camera2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I3{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/ill.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I4{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/camera.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I5{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/web.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I6{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/web2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I7{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/ill2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I8{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/ill3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .I9{
+        background: linear-gradient(rgba(107, 177, 235, 0.7), rgba(107, 177, 235, 0.7)), url(../IMG/web3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media screen and (max-width:530px) {
